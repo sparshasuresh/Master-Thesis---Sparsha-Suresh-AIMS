@@ -14,11 +14,9 @@ This repository contains the implementation code and supporting materials for my
   ```bash
   pip install numpy
 
-  # Software Installation Guide for CARLA + Python Virtual Environment
-
 ---
 
-## Software Installation
+ # Software Installation Guide for CARLA + Python Virtual Environment
 
 
 https://github.com/sparshasuresh/Master-Thesis---Sparsha-Suresh-AIMS/blob/main/1.Cloning.png
@@ -27,8 +25,10 @@ CARLA (Car Learning to Act) is created to support research and advancement in au
 
 https://github.com/sparshasuresh/Master-Thesis---Sparsha-Suresh-AIMS/blob/main/2.sudo%20update.png
 
-On Ubuntu 22.04 LTS, first clone the official CARLA repo from GitHub with the `git clone` command. It gets the most up-to-date source code and simulation assets to local computer. Once you go into the `carla` directory with `cd carla`, the following step is to install the dependencies which consist of compilers, build tools (including cmake and clang), image processing libraries (such as libpng, libtiff, libjpeg) and Python packages for development (Činčurak et al., 2024, pg: 139).
-
+On Ubuntu 22.04 LTS, first clone the official CARLA repo from GitHub with the `git clone` command. It gets the most up-to-date source code and simulation assets to local computer. Once you go into the `carla` directory with `cd carla`, the following step is to install the dependencies which consist of compilers, build tools (including cmake and clang), image processing libraries (such as libpng, libtiff, libjpeg) and Python packages for development (Činčurak et al., 2024, pg:139).
+Users may either build CARLA from source - https://carla.org/
+or 
+download the official precompiled binary.
 
 
 ---
@@ -47,7 +47,17 @@ Once the build is over, start CARLA by typing ./CarlaUE4.sh. Should the installa
 
 Establishing a special Python virtual environment is necessary for using software like CARLA and Scenario Runner which could have conflicting requirements. Using a virtual environment, each tool is set up separately, so that it does not conflict with system-level packages (Gutierrez et al., 2021, pg: 84).
 
-The last step is to use pip to set up needed Python libraries. Among these, numpy is used for handling arrays, pandas is used for analysis, opencv-python is used for displaying images. It makes sure that the work area for development is always organized (Jeon et al., 2022, pg: 65).
+The current implementation only requires two essential Python packages:
+carla – CARLA Python API (provided with the simulator)
+numpy – for numerical operations and array handling.
+
+For optional logging and visualization of results, it is recommended to also install:
+matplotlib – for plotting validation results such as position error and confidence level over time
+Installation Command:
+
+```bash
+pip install numpy matplotlib
+---
 
 
 
