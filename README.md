@@ -20,6 +20,8 @@ This repository contains the implementation code and supporting materials for my
 
 ## Software Installation
 
+![Screenshot 1](https://github.com/sparshasuresh/Master-Thesis---Sparsha-Suresh-AIMS/blob/main/images/setup1.png)
+
 
 CARLA (Car Learning to Act) is created to support research and advancement in autonomous vehicle systems. Its realistic environment which includes dynamic actors, sensor reproduction, roadways and weather, makes testing and verifying autonomous driving code in a controlled way very convenient (Catozzi, 2024, pg: 81).
 
