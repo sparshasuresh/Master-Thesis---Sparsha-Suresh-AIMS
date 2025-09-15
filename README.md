@@ -20,18 +20,26 @@ This repository contains the implementation code and supporting materials for my
 
 ## Software Installation
 
-![Screenshot 1](https://github.com/sparshasuresh/Master-Thesis---Sparsha-Suresh-AIMS/blob/main/images/setup1.png)
 
+https://github.com/sparshasuresh/Master-Thesis---Sparsha-Suresh-AIMS/blob/main/1.Cloning.png
 
 CARLA (Car Learning to Act) is created to support research and advancement in autonomous vehicle systems. Its realistic environment which includes dynamic actors, sensor reproduction, roadways and weather, makes testing and verifying autonomous driving code in a controlled way very convenient (Catozzi, 2024, pg: 81).
 
+https://github.com/sparshasuresh/Master-Thesis---Sparsha-Suresh-AIMS/blob/main/2.sudo%20update.png
+
 On Ubuntu 22.04 LTS, first clone the official CARLA repo from GitHub with the `git clone` command. It gets the most up-to-date source code and simulation assets to local computer. Once you go into the `carla` directory with `cd carla`, the following step is to install the dependencies which consist of compilers, build tools (including cmake and clang), image processing libraries (such as libpng, libtiff, libjpeg) and Python packages for development (Činčurak et al., 2024, pg: 139).
 
+
+
 ---
+
+https://github.com/sparshasuresh/Master-Thesis---Sparsha-Suresh-AIMS/blob/main/3.Dependencies.png
 
 Once you have all dependencies, you need to use `make PythonAPI` and `make launch` from the CARLA source to start building. Assembling the code in this way makes certain everything on the local computer is set up properly to run the simulator (Činčurak et al., 2024, pg: 111). With the Python API, developers can add their own actions to a simulation and connect algorithms like sensor fusion.
 
 ---
+
+https://github.com/sparshasuresh/Master-Thesis---Sparsha-Suresh-AIMS/blob/main/4.CARLA.png
 
 Once the build is over, start CARLA by typing ./CarlaUE4.sh. Should the installation be successful, a graphical simulation window will appear with a world where you can instantiate and maneuver automated cars. Because it is working properly, the simulator is ready to be integrated with ROS2 and custom Python AI modules (Goyal, Griggio and Tonetta, 2025, pg: 36). 
 
