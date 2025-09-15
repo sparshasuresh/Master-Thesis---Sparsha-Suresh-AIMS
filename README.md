@@ -19,16 +19,6 @@ This repository contains the implementation code and supporting materials for my
 ---
 
 ## Software Installation
-![alt text](image.png)
-
-### 📌 Figure: Clone the CARLA Repository
-![alt text](image-1.png)
-### 📌 Figure: Install Dependencies
-
-![alt text](image-2.png)
-### 📌 Figure: Build CARLA from Source
-![alt text](image-3.png)
-### 📌 Figure: Run CARLA Simulator
 
 
 CARLA (Car Learning to Act) is created to support research and advancement in autonomous vehicle systems. Its realistic environment which includes dynamic actors, sensor reproduction, roadways and weather, makes testing and verifying autonomous driving code in a controlled way very convenient (Catozzi, 2024, pg: 81).
@@ -42,17 +32,6 @@ Once you have all dependencies, you need to use `make PythonAPI` and `make launc
 ---
 
 Once the build is over, start CARLA by typing ./CarlaUE4.sh. Should the installation be successful, a graphical simulation window will appear with a world where you can instantiate and maneuver automated cars. Because it is working properly, the simulator is ready to be integrated with ROS2 and custom Python AI modules (Goyal, Griggio and Tonetta, 2025, pg: 36). 
----
-
-## Create a Python Virtual Environment
-![alt text](image-8.png)
-### 📌 Figure: Install Miniconda
-
-![alt text](image-9.png)
-### 📌 Figure: Create and Activate Virtual Environment
-
-![alt text](image-10.png)
-### 📌 Figure: Install Required Python Packages
 
 ---
 
