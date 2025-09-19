@@ -1,0 +1,27 @@
+## 📊 Validation Results
+
+This section presents additional validation plots generated for the sensor fusion pipeline.  
+They demonstrate how the **Kalman Filter**, **Bayesian Network**, and **controller** behave under different conditions.
+
+### 1. Kalman Filter vs Ground Truth Trajectory
+The Kalman filter tracks the vehicle’s trajectory with reduced noise, providing a stable state estimate closely aligned with CARLA ground truth.
+
+![Kalman vs Ground Truth](results/kalman_vs_gt.png)
+
+---
+
+### 2. Bayesian Network Confidence under Varying Weather
+System confidence adapts dynamically to environmental conditions.  
+- High in **clear** weather  
+- Reduced under **rain**  
+- Lowest in **fog**  
+- Partial recovery in **snow**
+
+![Confidence under Weather](results/confidence_weather.png)
+
+---
+
+### 3. Throttle Adaptation Based on Confidence
+The controller automatically reduces throttle in low-confidence situations (e.g., foggy conditions), demonstrating **safety-aware decision-making**.
+
+![Throttle Adaptation](results/throttle_confidence.png)
