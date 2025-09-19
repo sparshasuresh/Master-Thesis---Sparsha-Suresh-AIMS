@@ -17,7 +17,7 @@ System confidence adapts dynamically to environmental conditions.
 - Lowest in **fog**  
 - Partial recovery in **snow**
 
-![Confidence under Weather](results/confidence_weather.png)
+Bayesian Network Grapgh.png
 
 ---
 
