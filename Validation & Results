@@ -6,7 +6,7 @@ They demonstrate how the **Kalman Filter**, **Bayesian Network**, and **controll
 ### 1. Kalman Filter vs Ground Truth Trajectory
 The Kalman filter tracks the vehicle’s trajectory with reduced noise, providing a stable state estimate closely aligned with CARLA ground truth.
 
-![Kalman vs Ground Truth](results/kalman_vs_gt.png)
+![Kalman vs Ground Truth](Validation%20&%20Results/kalman_vs_gt.png)
 
 ---
 
@@ -17,11 +17,11 @@ System confidence adapts dynamically to environmental conditions.
 - Lowest in **fog**  
 - Partial recovery in **snow**
 
-Bayesian Network Grapgh.png
+![Confidence under Weather](Validation%20&%20Results/confidence_weather.png)
 
 ---
 
 ### 3. Throttle Adaptation Based on Confidence
 The controller automatically reduces throttle in low-confidence situations (e.g., foggy conditions), demonstrating **safety-aware decision-making**.
 
-![Throttle Adaptation](results/throttle_confidence.png)
+![Throttle Adaptation](Validation%20&%20Results/throttle_confidence.png)
