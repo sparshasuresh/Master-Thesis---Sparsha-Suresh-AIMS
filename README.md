@@ -55,7 +55,7 @@ For optional logging and visualization of results, it is recommended to also ins
 matplotlib – for plotting validation results such as position error and confidence level over time
 **Installation Command:**
 
-```bash
+``bash
 pip install numpy matplotlib
 
 ---
