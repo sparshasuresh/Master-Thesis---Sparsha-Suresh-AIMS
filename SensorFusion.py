@@ -1,9 +1,4 @@
 #!/usr/bin/env python3
-"""
-Minimal CARLA Sensor Fusion - Kalman Filter + Bayesian Network Only
-For systems with limited disk space - No PyTorch required
-German Automotive Industry Study Implementation
-"""
 
 import sys
 import time
@@ -642,8 +637,8 @@ def main():
     
     finally:
         simulation.cleanup()
-        print("\n🏁 CARLA Minimal Sensor Fusion Demo Completed!")
-        print("📈 Successfully demonstrated Kalman Filter + Bayesian Network integration")
+        print("\n🏁 CARLA Sensor Fusion Completed!")
 
 if __name__ == "__main__":
     main()
+
